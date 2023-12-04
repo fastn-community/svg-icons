@@ -2,6 +2,7 @@
 -- import: fastn-community.github.io/svg-icons/phosphor
 -- import: fastn-community.github.io/design-system as ds
 -- import: fastn-community.github.io/dark-mode-switcher as dms
+-- import: fastn-community.github.io/code-block as cb
 
 
 -- ftd.column:
@@ -14,6 +15,7 @@ align-content: center
 -- ftd.column:
 width.fixed.px: 800
 spacing.fixed.px: 20
+color: $inherited.colors.text
 
 
 -- ds.heading-large: SVG Icons
@@ -25,23 +27,31 @@ Github: [fastn-community/svg-icons](https://github.com/fastn-community/svg-icons
 
 Add dependency to your `FASTN.ftd` file:
 
--- ftd.code:
+-- cb.code: Add `svg-icons` to your `FASTN.ftd`
 lang: ftd
 
 \-- fastn.dependency: fastn-community.github.io/svg-icons
 
 
+
+
+-- ds.heading-medium: Font Awesome
+
 -- ds.copy-regular:
 
 And then use helpers from this module to show icons:
 
--- ftd.code:
+-- cb.code: Using `font-awesome` icons
 lang: ftd
 
-\-- import: fastn-community.github.io/svg-icons/phosphor
+\-- import: fastn-community.github.io/svg-icons/fa
 
-\-- fa.brand: apple
+\-- fa.brand: font-awesome
 \-- fa.regular: bell
+size: 64
+
+-- fa.brand: font-awesome
+-- fa.regular: bell
 size: 64
 
 -- ds.copy-regular:
@@ -53,10 +63,14 @@ it contains three folders, `brands`, which are accessed via e.g.
 `solid` via, you guessed it, `fa.solid`.
 
 
--- ftd.code:
+
+
+-- ds.heading-medium: Phosphor Icons
+
+-- cb.code: Using `Phosphor Icons`
 lang: ftd
 
-\-- import: fastn-community.github.io/svg-icons/fa
+\-- import: fastn-community.github.io/svg-icons/phosphor
 
 \-- phosphor.bold: app-store-logo
 size: 200
@@ -73,7 +87,9 @@ folder](https://github.com/phosphor-icons/core/tree/main/raw) to get the name
 of icons. For each folder we have `phosphor.<folder-name>` components, eg
 `phosphor.bold` and so on.
 
--- ds.heading-large: `size`
+
+
+-- ds.heading-medium: `size`
 
 -- ds.copy-regular:
 
@@ -85,10 +101,12 @@ size. The default value of the size is `24px`.
 -- ds.copy-regular:
 
 You can add `color` property to the parent element where you are placing the
-icon. Or you can explicitly specify the `color`.
+icon.
+
+
+
 
 -- ds.heading-medium: Demos
-
 
 -- ftd.column:
 color: $inherited.colors.cta-primary.base
