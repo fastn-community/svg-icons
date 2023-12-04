@@ -3,8 +3,6 @@
 -- fastn.package: fastn-community.github.io/svg-icons
 
 -- fastn.dependency: fastn-community.github.io/design-system
--- fastn.dependency: fastn-community.github.io/dark-mode-switcher
--- fastn.dependency: fastn-community.github.io/code-block
 
 -- fastn.auto-import: fastn-community.github.io/svg-icons/assets
 

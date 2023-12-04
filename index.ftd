@@ -1,21 +1,9 @@
 -- import: fastn-community.github.io/svg-icons/fa
 -- import: fastn-community.github.io/svg-icons/phosphor
 -- import: fastn-community.github.io/design-system as ds
--- import: fastn-community.github.io/dark-mode-switcher as dms
--- import: fastn-community.github.io/code-block as cb
 
 
--- ftd.column:
-background.solid: $inherited.colors.background.base
-width: fill-container
-align-content: center
-
--- dms.dark-mode-switcher-float:
-
--- ftd.column:
-width.fixed.px: 800
-spacing.fixed.px: 20
-color: $inherited.colors.text
+-- ds.blank-page:
 
 
 -- ds.heading-large: SVG Icons
@@ -27,7 +15,7 @@ Github: [fastn-community/svg-icons](https://github.com/fastn-community/svg-icons
 
 Add dependency to your `FASTN.ftd` file:
 
--- cb.code: Add `svg-icons` to your `FASTN.ftd`
+-- ds.code: Add `svg-icons` to your `FASTN.ftd`
 lang: ftd
 
 \-- fastn.dependency: fastn-community.github.io/svg-icons
@@ -41,7 +29,7 @@ lang: ftd
 
 And then use helpers from this module to show icons:
 
--- cb.code: Using `font-awesome` icons
+-- ds.code: Using `font-awesome` icons
 lang: ftd
 
 \-- import: fastn-community.github.io/svg-icons/fa
@@ -67,7 +55,7 @@ it contains three folders, `brands`, which are accessed via e.g.
 
 -- ds.heading-medium: Phosphor Icons
 
--- cb.code: Using `Phosphor Icons`
+-- ds.code: Using `Phosphor Icons`
 lang: ftd
 
 \-- import: fastn-community.github.io/svg-icons/phosphor
@@ -134,7 +122,6 @@ size: 64
 
 -- end: ftd.column
 
--- end: ftd.column
+-- end: ds.blank-page
 
--- end: ftd.column
 
