@@ -4,4 +4,4 @@
 [Font-Awesome](https://fontawesome.com) and
 [Phosphor Icons](https://phosphoricons.com) projects.
 
-[Documentation](fastn-community.github.io/svg-icons).
+[Documentation](https://fastn-community.github.io/svg-icons).
