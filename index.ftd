@@ -3,13 +3,7 @@
 -- import: fastn-community.github.io/design-system as ds
 
 
--- ds.blank-page:
-
-
--- ds.heading-large: SVG Icons
-
-
--- ds.copy-regular:
+-- ds.blank-page: SVG Icons 
 
 Github: [fastn-community/svg-icons](https://github.com/fastn-community/svg-icons)
 
