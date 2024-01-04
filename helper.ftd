@@ -8,7 +8,6 @@
 
 -- component icon:
 caption url:
-string prefix:
 optional ftd.color color:
 integer size: 24
 
