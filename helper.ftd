@@ -6,27 +6,39 @@
 
 
 
--- component icon:
+
+
+
+-- web-component phosphor-icon:
+caption url:
+optional ftd.color color:
+integer size: 24
+js: $assets.files.web-component.js
+
+
+
+
+-- component icon-ui:
 caption url:
 optional ftd.color color:
 integer size: 24
 
 -- ftd.container:
 display: inline
-width.fixed.px: $icon.size
-height.fixed.px: $icon.size
-color: $icon.color
+width.fixed.px: $icon-ui.size
+height.fixed.px: $icon-ui.size
+color: $icon-ui.color
 js: $assets.files.helper.js
 
--- ftd.text: $icon.url
+-- ftd.text: $icon-ui.url
 classes: $SVG_ICON_CLASS
 opacity: 0.0
-width.fixed.px: $icon.size
-height.fixed.px: $icon.size
+width.fixed.px: $icon-ui.size
+height.fixed.px: $icon-ui.size
 
 -- end: ftd.container
 
--- end: icon
+-- end: icon-ui
 
 
 

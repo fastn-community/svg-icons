@@ -1,4 +1,4 @@
-(function() {
+(function () {
     if (window.svg_helper_loaded) {
         // TODO: why do we need this?
         return;
