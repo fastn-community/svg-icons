@@ -8,8 +8,9 @@ caption string name:
 optional ftd.color color:
 integer size: 24
 
--- helper.icon: $svg-url(icon=$bold.name, prefix=bold)
+-- helper.phosphor-icon: $svg-url(icon=$bold.name, prefix=bold)
 size: $bold.size
+color: $bold.color
 
 -- end: bold
 
@@ -22,8 +23,9 @@ caption string name:
 optional ftd.color color:
 integer size: 24
 
--- helper.icon: $svg-url(icon=$duotone.name, prefix=duotone)
+-- helper.phosphor-icon: $svg-url(icon=$duotone.name, prefix=duotone)
 size: $duotone.size
+color: $duotone.color
 
 -- end: duotone
 
@@ -36,8 +38,9 @@ caption string name:
 optional ftd.color color:
 integer size: 24
 
--- helper.icon: $svg-url(icon=$fill.name, prefix=fill)
+-- helper.phosphor-icon: $svg-url(icon=$fill.name, prefix=fill)
 size: $fill.size
+color: $fill.color
 
 -- end: fill
 
@@ -49,8 +52,9 @@ caption string name:
 optional ftd.color color:
 integer size: 24
 
--- helper.icon: $svg-url(icon=$light.name, prefix=light)
+-- helper.phosphor-icon: $svg-url(icon=$light.name, prefix=light)
 size: $light.size
+color: $light.color
 
 -- end: light
 
@@ -62,8 +66,9 @@ caption string name:
 optional ftd.color color:
 integer size: 24
 
--- helper.icon: $svg-url(icon=$thin.name, prefix=thin)
+-- helper.phosphor-icon: $svg-url(icon=$thin.name, prefix=thin)
 size: $thin.size
+color: $thin.color
 
 -- end: thin
 
@@ -75,8 +80,9 @@ caption string name:
 optional ftd.color color:
 integer size: 24
 
--- helper.icon: $regular-svg-url(icon=$regular.name)
+-- helper.phosphor-icon: $regular-svg-url(icon=$regular.name)
 size: $regular.size
+color: $regular.color
 
 -- end: regular
 
