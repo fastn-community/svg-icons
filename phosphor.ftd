@@ -94,7 +94,7 @@ color: $regular.color
 string prefix:
 string icon:
 
-"http://raw.githubusercontent.com/phosphor-icons/core/main/raw/" + prefix + "/" + icon + "-" + prefix + ".svg"
+"//raw.githubusercontent.com/phosphor-icons/core/main/raw/" + prefix + "/" + icon + "-" + prefix + ".svg"
 
 
 
@@ -103,4 +103,4 @@ string icon:
 -- string regular-svg-url(icon):
 string icon:
 
-"http://raw.githubusercontent.com/phosphor-icons/core/main/raw/regular/" + icon + ".svg"
+"//raw.githubusercontent.com/phosphor-icons/core/main/raw/regular/" + icon + ".svg"
