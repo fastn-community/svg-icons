@@ -7,7 +7,7 @@ caption string name:
 optional ftd.color color:
 integer size: 24
 
--- helper.phosphor-icon: $svg-url(icon=$brand.name, prefix=brands)
+-- helper.icon: $svg-url(icon=$brand.name, prefix=brands)
 size: $brand.size
 color: $brand.color
 
@@ -34,4 +34,4 @@ color: $regular.color
 string icon:
 string prefix:
 
-"raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/" + prefix + "/" + icon + ".svg"
+"https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/" + prefix + "/" + icon + ".svg"
