@@ -8,7 +8,7 @@ caption string name:
 optional ftd.color color:
 integer size: 24
 
--- helper.phosphor-icon: $svg-url(icon=$bold.name, prefix=bold)
+-- helper.icon: $svg-url(icon=$bold.name, prefix=bold)
 size: $bold.size
 color: $bold.color
 
@@ -23,7 +23,7 @@ caption string name:
 optional ftd.color color:
 integer size: 24
 
--- helper.phosphor-icon: $svg-url(icon=$duotone.name, prefix=duotone)
+-- helper.icon: $svg-url(icon=$duotone.name, prefix=duotone)
 size: $duotone.size
 color: $duotone.color
 
@@ -38,7 +38,7 @@ caption string name:
 optional ftd.color color:
 integer size: 24
 
--- helper.phosphor-icon: $svg-url(icon=$fill.name, prefix=fill)
+-- helper.icon: $svg-url(icon=$fill.name, prefix=fill)
 size: $fill.size
 color: $fill.color
 
@@ -52,7 +52,7 @@ caption string name:
 optional ftd.color color:
 integer size: 24
 
--- helper.phosphor-icon: $svg-url(icon=$light.name, prefix=light)
+-- helper.icon: $svg-url(icon=$light.name, prefix=light)
 size: $light.size
 color: $light.color
 
@@ -66,7 +66,7 @@ caption string name:
 optional ftd.color color:
 integer size: 24
 
--- helper.phosphor-icon: $svg-url(icon=$thin.name, prefix=thin)
+-- helper.icon: $svg-url(icon=$thin.name, prefix=thin)
 size: $thin.size
 color: $thin.color
 
@@ -80,7 +80,7 @@ caption string name:
 optional ftd.color color:
 integer size: 24
 
--- helper.phosphor-icon: $regular-svg-url(icon=$regular.name)
+-- helper.icon: $regular-svg-url(icon=$regular.name)
 size: $regular.size
 color: $regular.color
 
@@ -94,7 +94,7 @@ color: $regular.color
 string prefix:
 string icon:
 
-"raw.githubusercontent.com/phosphor-icons/core/main/raw/" + prefix + "/" + icon + "-" + prefix + ".svg"
+"//raw.githubusercontent.com/phosphor-icons/core/main/raw/" + prefix + "/" + icon + "-" + prefix + ".svg"
 
 
 
@@ -103,4 +103,4 @@ string icon:
 -- string regular-svg-url(icon):
 string icon:
 
-"raw.githubusercontent.com/phosphor-icons/core/main/raw/regular/" + icon + ".svg"
+"//raw.githubusercontent.com/phosphor-icons/core/main/raw/regular/" + icon + ".svg"

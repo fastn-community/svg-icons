@@ -22,8 +22,8 @@
     },
     "fa.ftd": {
       "name": "fa.ftd",
-      "checksum": "4F92F4DFA5180E73B4994B3AFC52235F0BAFE8B583280BA57CF970DF9877FB0C",
-      "size": 642
+      "checksum": "3C7F0AFC9A80E7800151D9409972DAD04B15A7F4BCE84C5EE3B1381EEFEA4CF9",
+      "size": 626
     },
     "favicon.ico": {
       "name": "favicon.ico",
@@ -32,8 +32,8 @@
     },
     "helper.ftd": {
       "name": "helper.ftd",
-      "checksum": "E29C7A610BD1FFD8C9EAE2E2EFB30567A72A6FE8700FED75A2D4690872256E90",
-      "size": 664
+      "checksum": "9B2629B625F04E44C8F32307A4B5209D1753C0BF95957F16471EF84D233DA43D",
+      "size": 321
     },
     "helper.js": {
       "name": "helper.js",
@@ -47,8 +47,8 @@
     },
     "phosphor.ftd": {
       "name": "phosphor.ftd",
-      "checksum": "3CEE6FB02DDB89854CC93F7D1167584C9B0A489BFB0F295A192591CC9587184A",
-      "size": 1607
+      "checksum": "11150737ED22E29E47F86DEB17C4C2BBD543260A3C554A6113A4EF92F9314045",
+      "size": 1557
     },
     "web-component.js": {
       "name": "web-component.js",
@@ -56,6 +56,6 @@
       "size": 3370
     }
   },
-  "zip_url": "https://github.com/fastn-community/svg-icons/archive/d7cdba61ed63630d42e4f2085c7e3efae49505e3.zip",
-  "checksum": "A6D06993E909AA3E3C96CF7B9F65C7A4E53E120C345C75DD4E8981DC070B81E6"
+  "zip_url": "https://github.com/fastn-community/svg-icons/archive/f13d37a96d875335e55c8d9c3e082f8384c6c760.zip",
+  "checksum": "EE0A1749B2C676CB21947A79E9B2E2F9C6CBB939D95948CDC7723507B8EBBF4A"
 }
